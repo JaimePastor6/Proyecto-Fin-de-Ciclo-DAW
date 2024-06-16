@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  db:
+    image: mysql
+    container_name: tiendamusica_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tiendamusica
+      MYSQL_USER: tiendamusica
+      MYSQL_PASSWORD: tiendamusica
+    ports:
+      - '3366:3306'
+    volumes:
+      - 'dbdata:/var/lib/mysql'
+      - './tiendamusica.sql:/docker-entrypoint-initdb.d/tiendamusica.sql'
+  
+  app:
+    build: .
+    container_name: tiendamusica_app
+    ports:
+      - '9000:9000'
+    depends_on:
+      - db
+    environment:
+      #- SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/tiendamusica?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/tiendamusica
+      - SPRING_DATASOURCE_USERNAME=tiendamusica
+      - SPRING_DATASOURCE_PASSWORD=tiendamusica
+  
+volumes:
+  dbdata:
