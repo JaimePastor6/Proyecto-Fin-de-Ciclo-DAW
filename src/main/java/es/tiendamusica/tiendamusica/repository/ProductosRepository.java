@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import es.tiendamusica.tiendamusica.repository.entity.Categorias;
-import es.tiendamusica.tiendamusica.repository.entity.Productos;
+import es.tiendamusica.tiendamusica.entity.Categorias;
+import es.tiendamusica.tiendamusica.entity.Productos;
 
 public interface ProductosRepository extends JpaRepository<Productos, Integer> {
 

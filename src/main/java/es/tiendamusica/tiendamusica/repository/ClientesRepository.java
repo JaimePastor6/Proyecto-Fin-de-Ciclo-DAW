@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import es.tiendamusica.tiendamusica.repository.entity.Clientes;
+import es.tiendamusica.tiendamusica.entity.Clientes;
 
 public interface ClientesRepository extends JpaRepository<Clientes, Integer> {
 

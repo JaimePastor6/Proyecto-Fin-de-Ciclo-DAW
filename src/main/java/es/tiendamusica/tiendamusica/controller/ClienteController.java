@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import es.tiendamusica.tiendamusica.repository.entity.Clientes;
+import es.tiendamusica.tiendamusica.entity.Clientes;
 import es.tiendamusica.tiendamusica.repository.CategoriasRepository;
 import es.tiendamusica.tiendamusica.repository.ClientesRepository;
 import jakarta.servlet.http.HttpSession;

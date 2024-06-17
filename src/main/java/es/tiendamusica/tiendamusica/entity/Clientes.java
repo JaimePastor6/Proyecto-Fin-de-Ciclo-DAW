@@ -1,4 +1,4 @@
-package es.tiendamusica.tiendamusica.repository.entity;
+package es.tiendamusica.tiendamusica.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

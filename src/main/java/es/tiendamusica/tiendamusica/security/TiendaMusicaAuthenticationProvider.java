@@ -16,7 +16,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
-import es.tiendamusica.tiendamusica.repository.entity.Clientes;
+import es.tiendamusica.tiendamusica.entity.Clientes;
 import es.tiendamusica.tiendamusica.repository.ClientesRepository;
 
 

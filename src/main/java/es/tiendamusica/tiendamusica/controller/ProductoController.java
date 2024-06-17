@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import es.tiendamusica.tiendamusica.repository.entity.Categorias;
-import es.tiendamusica.tiendamusica.repository.entity.Productos;
+import es.tiendamusica.tiendamusica.entity.Categorias;
+import es.tiendamusica.tiendamusica.entity.Productos;
 import es.tiendamusica.tiendamusica.repository.CategoriasRepository;
 import es.tiendamusica.tiendamusica.repository.ProductosRepository;
 import es.tiendamusica.tiendamusica.repository.ResenasRepository;

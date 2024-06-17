@@ -9,8 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import es.tiendamusica.tiendamusica.repository.entity.Clientes;
-import es.tiendamusica.tiendamusica.repository.entity.Productos;
+import es.tiendamusica.tiendamusica.entity.Clientes;
+import es.tiendamusica.tiendamusica.entity.Productos;
 import es.tiendamusica.tiendamusica.repository.CategoriasRepository;
 import es.tiendamusica.tiendamusica.repository.ProductosRepository;
 

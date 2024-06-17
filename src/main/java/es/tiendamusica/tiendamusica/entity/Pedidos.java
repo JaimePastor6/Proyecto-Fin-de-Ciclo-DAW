@@ -1,4 +1,4 @@
-package es.tiendamusica.tiendamusica.repository.entity;
+package es.tiendamusica.tiendamusica.entity;
 
 import java.math.BigDecimal;
 import java.util.Date;

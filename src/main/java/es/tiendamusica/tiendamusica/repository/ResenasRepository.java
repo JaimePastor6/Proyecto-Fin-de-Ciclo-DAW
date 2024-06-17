@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import es.tiendamusica.tiendamusica.repository.entity.Productos;
-import es.tiendamusica.tiendamusica.repository.entity.Resenas;
+import es.tiendamusica.tiendamusica.entity.Productos;
+import es.tiendamusica.tiendamusica.entity.Resenas;
 
 public interface ResenasRepository extends JpaRepository<Resenas, Integer> {
 
